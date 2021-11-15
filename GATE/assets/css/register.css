@@ -1,0 +1,71 @@
+
+
+
+
+#loginContainer  {
+    
+    box-sizing: border-box;
+    text-align-last: left;
+    position: relative;
+    left: -15px;
+    TOP: -30px;
+    background-color: white;
+    margin: 35px;
+    PADDING: 3px;
+}
+
+#inputContainer input[type="text"],
+#inputContainer input[type="email"],
+#inputContainer input[type="password"] {
+    border-bottom-color: #8ba4b5;
+  
+    width: 100%;
+    height: 31px;
+    box-sizing: content-box;
+    font-size: 17px;
+    padding: 0px;
+}
+#inputContainer input[type="text"],
+#inputContainer input[type="email"],
+#inputContainer input[type="password"]:focus{
+ 
+    border-top-color: #41338d00;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-width: thin;
+    outline: none;
+
+
+
+
+}
+#inputContainer button:hover {
+    cursor: pointer;
+}
+#inputContainer button {
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 250px;
+    color: #000;
+    display: block;
+    font-size: 14px;
+
+
+
+   
+}
+#inputContainer label {
+     color: #1706a7;
+    font-size: 20px;
+    margin-top: 15px;
+    display: block;
+}
+.hasAccountText span{
+     color: #136ecb;
+}
+
+
+#registerForm,
+#loginForm {
+    display: none;
+}
